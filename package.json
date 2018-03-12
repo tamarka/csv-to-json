@@ -1,0 +1,22 @@
+{
+  "name": "ziptojson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "convert-csv-to-json": "0.0.13",
+    "csv-parse": "^2.0.4",
+    "csvtojson": "^1.1.9",
+    "formidable": "^1.2.0",
+    "jsonfile": "^4.0.0",
+    "node-stream-zip": "^1.5.0",
+    "sails": "^0.12.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
