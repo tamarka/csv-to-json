@@ -51,7 +51,7 @@ http.createServer(function (req, res) {
 
                                             var d=(obj.date).split("/");
                                             var date, month;
-                                            ifparseInt(d[0])<10)
+                                            if(parseInt(d[0])<10)
                                             {
                                                 date="0"+d[0];
                                             }
